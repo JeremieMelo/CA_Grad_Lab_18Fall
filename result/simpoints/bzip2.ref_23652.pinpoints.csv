@@ -1,0 +1,20 @@
+# Regions based on: /home/jiaqi/CA_Grad_Lab/pinplay-3.5/extras/pinplay/scripts/regions.py -f 0 --csv_region --bbv_file t.bb --region_file t.simpoints --weight_file t.weights 
+# comment,thread-id,region-id,simulation-region-start-icount,simulation-region-end-icount,region-weight
+# Region = 1 Slice = 269 Icount = 8070001932 Length = 30000007 Weight = 0.11240
+cluster 0 from slice 269,0,1,8070001932,8100001938,0.11240
+
+# Region = 2 Slice = 604 Icount = 18120004274 Length = 30000056 Weight = 0.10975
+cluster 1 from slice 604,0,2,18120004274,18150004329,0.10975
+
+# Region = 3 Slice = 103 Icount = 3090000819 Length = 30000002 Weight = 0.08760
+cluster 2 from slice 103,0,3,3090000819,3120000820,0.08760
+
+# Region = 4 Slice = 793 Icount = 23790005563 Length = 30000011 Weight = 0.20397
+cluster 3 from slice 793,0,4,23790005563,23820005573,0.20397
+
+# Region = 5 Slice = 1726 Icount = 51780011854 Length = 30000003 Weight = 0.48628
+cluster 4 from slice 1726,0,5,51780011854,51810011856,0.48628
+
+# Total instructions in 5 regions = 150000079
+# Total instructions in workload = 90750019879
+# Total slices in workload = 3025
