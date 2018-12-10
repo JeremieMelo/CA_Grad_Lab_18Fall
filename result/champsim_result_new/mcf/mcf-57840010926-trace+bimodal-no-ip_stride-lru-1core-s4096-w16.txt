@@ -1,0 +1,63 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 1000000
+Simulation Instructions: 29000000
+Number of CPUs: 1
+LLC sets: 4096
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 1600 MT/s
+
+CPU 0 runs /home/jiaqi/CA_Grad_Lab/lab/traces/mcf-57840010926-trace.gz
+CPU 0 Bimodal branch predictor
+CPU 0 L2C IP-based stride prefetcher
+
+Warmup complete CPU 0 instructions: 1000001 cycles: 685104 (Simulation time: 0 hr 0 min 2 sec) 
+
+Heartbeat CPU 0 instructions: 10000002 cycles: 94480929 heartbeat IPC: 0.105841 cumulative IPC: 0.0959531 (Simulation time: 0 hr 0 min 56 sec) 
+Heartbeat CPU 0 instructions: 20000000 cycles: 194573079 heartbeat IPC: 0.0999079 cumulative IPC: 0.0979947 (Simulation time: 0 hr 1 min 59 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: /home/jiaqi/CA_Grad_Lab/lab/traces/mcf-57840010926-trace.gz
+Heartbeat CPU 0 instructions: 30000003 cycles: 293050104 heartbeat IPC: 0.101547 cumulative IPC: 0.0991911 (Simulation time: 0 hr 3 min 1 sec) 
+Finished CPU 0 instructions: 29000002 cycles: 292365000 cumulative IPC: 0.0991911 (Simulation time: 0 hr 3 min 1 sec) 
+
+CPU 0 Branch Prediction Accuracy: 86.666% MPKI: 34.5476
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.0991911 instructions: 29000002 cycles: 292365000
+L1D TOTAL     ACCESS:    7824206  HIT:    4389844  MISS:    3434362
+L1D LOAD      ACCESS:    6410788  HIT:    3071340  MISS:    3339448
+L1D RFO       ACCESS:    1413418  HIT:    1318504  MISS:      94914
+L1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I TOTAL     ACCESS:    6654704  HIT:    6654700  MISS:          4
+L1I LOAD      ACCESS:    6654704  HIT:    6654700  MISS:          4
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C TOTAL     ACCESS:    4162739  HIT:    1464454  MISS:    2698285
+L2C LOAD      ACCESS:    3339399  HIT:     704605  MISS:    2634794
+L2C RFO       ACCESS:      94912  HIT:      37301  MISS:      57611
+L2C PREFETCH  ACCESS:      15116  HIT:       9394  MISS:       5722
+L2C WRITEBACK ACCESS:     713312  HIT:     713154  MISS:        158
+L2C PREFETCH  REQUESTED:      16016  ISSUED:      16016  USEFUL:       1705  USELESS:       4057
+LLC TOTAL     ACCESS:    3261595  HIT:    1392900  MISS:    1868695
+LLC LOAD      ACCESS:    2634773  HIT:     803647  MISS:    1831126
+LLC RFO       ACCESS:      57611  HIT:      25118  MISS:      32493
+LLC PREFETCH  ACCESS:       5740  HIT:        792  MISS:       4948
+LLC WRITEBACK ACCESS:     563471  HIT:     563343  MISS:        128
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:        290  USELESS:       4637
+Major fault: 0 Minor fault: 31133
+CPU 0 L2C PC-based stride prefetcher final stats
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:     289239  ROW_BUFFER_MISS:    1579069
+ DBUS_CONGESTED:     922663
+ WQ ROW_BUFFER_HIT:      40169  ROW_BUFFER_MISS:     445250  FULL:          0
+
+ AVG_CONGESTED_CYCLE: 12
